@@ -75,11 +75,24 @@ other standard 3rd party components.
        Smart mobile phone
 3.4 Software Requirements:
 This product is developed mainly using open source technologies like apache, php,  etc. So, we can use any operating system for developing this product. 
-Frontend: GTK+ 2.8.20 , GCC 4.0.0, PHP 5.20 , Glade 2.10.1 (For CBS) 
-Backend: MySql 4.17 
-Web Server: Apache 2.2 
-Platform used: Fedora Core 4 Linux, Windows XP / Windows7/ Windows Vista 
-Web Browser: Microsoft Internet Explorer 4.0,Mozilla ,Google Chrome or later
+Frontend Technologies:
+  JavaScript Framework:-
+  Requirement 1: Use a modern JavaScript framework like React.js or Angular.js for building the front-end of the portfolio website.
+  CSS Framework:-
+  Requirement 2: Utilize a CSS framework such as Bootstrap or Tailwind CSS for efficient styling and responsive design.
+  JavaScript Libraries:-
+  Requirement 3: Use appropriate JavaScript libraries for features like animations, modals, or any specific UI/UX enhancements.
+  Version Control:-
+  Requirement 4: Implement a version control system (e.g., Git) for efficient team collaboration and code management.
+
+Back-End Technologies: 
+Server-Side Framework:-
+Requirement 5: Choose a suitable server-side framework like Node.js with Express.js for handling server logic and API endpoints. 
+Database:- 
+Requirement 6: Use a database system such as MongoDB or PostgreSQL to store project, service, and user data.
+Authentication:-
+Requirement 7: Implement authentication using a secure mechanism (e.g., JWT) to manage user accounts and profiles.
+
 
 CONCLUSION:
 This Software Requirements Specification (SRS) specifies the requirements needed for the Banking System, which will be used in the Banks. This document will be used by the customer to ensure all specifications are correct and verified by the software Engineer to design the system. It deals with the internal banking functions like new account registration, withdrawal, deposit, account closure,& exclusively for the customers, who could access it from anywhere having an internet connection. The banking system uses a well interfaced GUI and well designed Web Forms for specific actions required by the users. It will need to be connected to a main database server for storing and retrieving the data of the customers. 
@@ -89,5 +102,3 @@ perform the various banking functionalities.
 Bank Customers: They would be using the e-Banking Solution to view their account details. 
 Research Students : Research students are advised to read all the section of this document to get an overall idea of the workflow and technicalities of the software. 
 Testers: It can be used as a documentation to know the interfaces.
-
-
